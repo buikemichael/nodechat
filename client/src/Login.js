@@ -50,7 +50,7 @@ function Login() {
               <div className=" justify-content-center">
                 <div className="mb-4">
                   <h3>
-                    Sign In to <strong>NodeChat</strong>
+                    Sign In to <strong>Chat App</strong>
                   </h3>
                   <p className="mb-4">
                     Lorem ipsum dolor sit amet elit. Sapiente sit aut eos
