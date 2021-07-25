@@ -1,0 +1,41 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:prettier/recommended"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": [ "react", "prettier"],
+	"rules": {
+        "quotes": 0,
+        "no-console": 1,
+        "no-debugger": 1,
+        "no-var": 1,
+        "no-trailing-spaces": 0,
+        "eol-last": 0,
+        "no-underscore-dangle": 0,
+        "no-alert": 0,
+        "no-lone-blocks": 0,
+        "import/no-named-as-default": 0,
+        "no-unused-vars":0,
+		"prettier/prettier": ["warn",{
+			"tabWidth": 4,
+			"semi": true,
+			"singleQuote": false,
+			"useTabs": false
+		}],
+		"react/react-in-jsx-scope": "off",
+        "react/prop-types": "off"
+	}
+}
